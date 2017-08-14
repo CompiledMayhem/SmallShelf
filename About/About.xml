@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Small Shelf</name>
+	<author>Darren McDonald</author>
+	<targetVersion>0.17.0</targetVersion>
+	<description>v0.1
+    This mod adds a single tile shelf.
+	</description>
+</ModMetaData>
