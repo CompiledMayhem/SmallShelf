@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
-
+<Defs>
   <ThingDef ParentName="FurnitureBase">
     <defName>SmallShelf</defName>
     <label>Small Shelf</label>
@@ -35,7 +34,7 @@
     <description>Items stored in this will not deteriorate, even if outside.</description>
     <size>(1,1)</size>
     <building>
-      <preventDeterioration>true</preventDeterioration>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -53,5 +52,4 @@
     <surfaceType>Item</surfaceType>
     <canOverlapZones>false</canOverlapZones>
   </ThingDef>
-
-</Buildings>
+</Defs>
